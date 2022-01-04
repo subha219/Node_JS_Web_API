@@ -1,0 +1,15 @@
+{
+  "name": "node-js-rest-api",
+  "version": "0.0.0",
+  "description": "NodeJsRestAPI",
+  "main": "index.js",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mssql": "^7.3.0",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.3.0"
+  }
+}
