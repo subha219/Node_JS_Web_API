@@ -6,3 +6,10 @@ In this article, we’ll take a step-by-step approach to help you in building a 
 At the end of this article, you should able to create a Node.js REST API performing CRUD operations on a database in SQL Server.
 
 
+As per your own requirement , can change this part : 
+
+const app = require('./app');
+const server = require('http').Server(app);
+server.listen(1337, 'localhost', () => {
+    console.log('Server Started');
+});
